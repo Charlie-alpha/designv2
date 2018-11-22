@@ -21,15 +21,11 @@ views:
         data:
             meta: 
                 type: single
-                route: block/om-mumin
+                route: block/kontakt
 ---
-Om
+Om kursen
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+Kursen heter Teknisk webbdesign och användbarhet, a.k.a. design, vilken handlar om att bygga webbplatser för design och användbarhet. 
 
-Skriv några kloka ord om kursen?
-
-Lägg till en representativ bild för kursen, enligt ditt egna val.
-
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+[FIGURE src=image/webdesign.jpg?w=350 caption="Teknisk webbdesign och användbarhet. "]

@@ -1,3 +1,3 @@
-#### Redovisa på GitHub
+#### GitHub repo
 
-Skriv något kort om ditt redovisa-repo och länka till [repot för me/redovisa på GitHub](https://github.com/Charlie-alpha/designv2).
+Charlies redovisa-repo finns på [GitHub](https://github.com/Charlie-alpha/designv2).
