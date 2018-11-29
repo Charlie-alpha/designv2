@@ -1,0 +1,357 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+/* Hide submenu, leave this to kmom02 */
+/*.rm-desktop ul {
+    display: none;
+}*/
+/* Hide responsive/mobile menu, leave this to kmom02 */
+/*.rm-navbar-max {
+    display: none;
+}*/
+/*body {
+    background-color: lightgrey;
+    color: rgb(223, 223, 223);
+}*/
+.wrap-all {
+  max-width: 80%;
+  border-radius: 5px;
+}
+.site-logo,
+.site-logo-text-icon {
+  display: none;
+}
+html {
+  background-color: #dfdfdf;
+}
+.my-navbar {
+  width: 600px;
+}
+.my-navbar li {
+  display: inline-block;
+  text-align: center;
+  padding: 5px 20px;
+}
+.my-navbar li:hover {
+  background-color: #323232;
+}
+.my-navbar li:not(:last-child) {
+  border-right: 1px solid #dfdfdf;
+}
+h1,
+h2,
+h3,
+h4 {
+  border-bottom: 1px solid #323232;
+}
+.region-header-col-1 {
+  position: relative;
+  width: 100%;
+  text-align: right;
+  margin-top: 5px;
+}
+/* selected items, links and navbar */
+.region-sidebar-left .block {
+  width: 200px;
+}
+div .wrap-sidebar {
+  background-color: #1e1e1e;
+  padding: 10px 25px;
+  border-radius: 5px;
+  height: 100%;
+  margin: 15px 0px;
+}
+.row .e {
+  min-height: 400px;
+  margin: 10px 20px 0px 0px;
+}
+.author-byline {
+  border: 1px solid #323232;
+}
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: auto;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #dfdfdf;
+}
+#rm-menu {
+  background-color: #080808;
+}
+.wrap-all {
+  margin: 0 auto;
+  background-color: #080808;
+}
+img {
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+a,
+.author-byline p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+}
+h1 {
+  font-size: 28px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 20;
+}
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  margin-top: 30px;
+}
+figcaption p {
+  font-size: 12px;
+  font-style: italic;
+}
+.my-navbar li a {
+  color: #dfdfdf;
+  text-decoration: none;
+}
+.site-logo-text a {
+  color: #dfdfdf;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+.site-logo-text a:hover {
+  background-color: #323232;
+}
+.region-sidebar-right .block {
+  width: 200px;
+  margin-bottom: 50px;
+}
+.breadcrumb-list {
+  font-size: 12px;
+}
+.toc,
+.breadcrumb-list li {
+  list-style-type: none;
+}
+.toc li {
+  margin-left: -20px;
+  margin-bottom: 2px;
+  font-size: 14px;
+}
+.toc a,
+.breadcrumb-list a,
+.next a,
+.previous a {
+  text-decoration: none;
+  color: #dfdfdf;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.inner-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.inner-wrap-main .row {
+  display: flex;
+}
+.region-flash img {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+.outer-wrap-main {
+  padding: 10px 40px;
+  min-height: 400px;
+}
+.region-footer {
+  margin: 20px 20px 0px 20px;
+}
+.footer-column {
+  width: 30%;
+  float: left;
+  padding-bottom: 10px;
+  margin-left: 20px;
+}
+.site-footer p {
+  margin-left: 20px;
+  padding-bottom: 5px;
+}
+.right {
+  float: right;
+}
+.author-byline {
+  padding: 10px;
+  display: flex;
+  max-width: 500px;
+  margin: 50px 0px;
+}
+.author-byline p {
+  margin: auto 5px;
+  font-size: 14px;
+}
+.my-navbar {
+  list-style-type: none;
+  position: relative;
+  margin: 5px auto;
+}
+.next {
+  margin: 0px;
+  text-align: right;
+}
+.previous {
+  margin-top: -20px;
+  text-align: left;
+}
+.region-main {
+  margin: 0px 15px;
+  width: 80%;
+}
+.region-main .next-previous {
+  margin: 10px 0px;
+}
+.stylechooser,
+#stylechooser {
+  width: 80%;
+  margin: 10 auto;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .rm-desktop li a {
+    font-size: 0.8em;
+  }
+  .site-logo-text-icon {
+    display: none;
+  }
+  .inner-wrap-main .row {
+    display: block;
+  }
+  .region-main {
+    width: 100%;
+  }
+  .region-sidebar-right {
+    display: flex;
+  }
+  .region-sidebar-right .block {
+    margin: 0px 10px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .rm-desktop {
+    display: none;
+  }
+  .region-flash {
+    display: none;
+  }
+  .region-sidebar-right {
+    display: block;
+  }
+  .region-sidebar-right .block {
+    margin: 10px auto;
+    width: 80%;
+  }
+  .footer-column-wrapper {
+    display: block;
+  }
+  .footer-column-wrapper .footer-column {
+    width: 100%;
+  }
+  .footer-column-wrapper p {
+    padding-right: 10px;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */

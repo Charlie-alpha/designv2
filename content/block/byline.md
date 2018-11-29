@@ -8,5 +8,5 @@
 </figcaption>
 </figure>
 
-<p><strong>Charlotte</strong> studerar människa-datainteraktion och sociala medier vid Umeå universitet. Just nu läser hon också distanskurser i webbprogrammering och databser vid Blekinge Tekniska Högskola. </p>
+<p><strong>Charlotte</strong> studerar människa-datorinteraktion och sociala medier vid Umeå universitet. Just nu läser hon också distanskurser i webbprogrammering och databser vid Blekinge Tekniska Högskola. </p>
 </div>

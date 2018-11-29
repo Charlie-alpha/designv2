@@ -1,0 +1,109 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColor: #080808;
+@colorBody:rgb(223, 223, 223);
+@headerFooterBg: #080808;
+
+html {
+    overflow-y: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+}
+
+#rm-menu {
+    background-color: @headerFooterBg;
+}
+
+.wrap-all {
+    margin: 0 auto;
+    background-color: @bgColor;
+}
+
+img {
+    max-width: 100%;
+}
+
+//font styles
+
+h1, h2, h3, h4, a, .author-byline p {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+figcaption p {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.my-navbar li a {
+    color: @colorBody;
+    text-decoration: none;
+}
+
+.site-logo-text a {
+    color: rgb(223, 223, 223);
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: rgb(50, 50, 50);
+    }
+}
+
+.region-sidebar-right .block {
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.breadcrumb-list {
+    font-size: 12px;
+}
+
+.toc, .breadcrumb-list li {
+    list-style-type: none;
+}
+
+.toc li {
+    margin-left: -20px;
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+
+.toc a, .breadcrumb-list a, .next a, .previous a {
+    text-decoration: none;
+    color: @colorBody;
+}
