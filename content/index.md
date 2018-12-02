@@ -25,6 +25,6 @@ Hallååå!
 
 Jag heter Charlotte men alla kallar mig för Charlie. Jag är från Linköping men flyttade till Umeå för ett år sedan på grund av studier. Jag  läser masterprogrammet i människa-datorinteraktion och sociala medier vid Umeå universitet. Jag gillar att läsa, spela piano, måla och klättra på fritiden. 
 
-Jag brukar resa på semester och mitt dröm är att resa runt i världen. Det är spännande att åka till andra länder och uppleva olika kulturer. Mitt första stora äventyret var att backpacka i Australien där jag spenderade de bästa 1,5 åren i hela mitt liv! 
+Jag brukar resa på semester och min dröm är att resa runt i världen. Det är spännande att åka till andra länder och uppleva olika kulturer. Mitt första stora äventyret var att backpacka i Australien där jag spenderade de bästa 1,5 åren i hela mitt liv! 
 
 // Charlie

@@ -4582,6 +4582,10 @@ body {
 img {
   max-width: 100%;
 }
+.site-logo-text-icon,
+.site-logo {
+  display: none;
+}
 h1,
 h2,
 h3,
@@ -4815,17 +4819,9 @@ figcaption p {
 /**
  * Layout for responsive style through media queries.
  */
-@media screen and (max-width: 1500px) {
-  .site-logo {
-    display: none;
-  }
-}
 @media screen and (max-width: 960px) {
   .rm-desktop li a {
     font-size: 0.8em;
-  }
-  .site-logo-text-icon {
-    display: none;
   }
   .inner-wrap-main .row {
     display: block;

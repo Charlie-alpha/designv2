@@ -1,8 +1,14 @@
 Revision history
 ======================
 
+v3.0.0 (2018-12-2)
+---------------------
+
+*kmom03 uppgiften klar. 
+
 v2.0.2 (2018-11-29)
 ---------------------
+
 *flyttade kmom2 redovisning till rätt fil. 
 
 v2.0.1 (2018-11-29)
