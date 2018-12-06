@@ -191,7 +191,7 @@
 
     p {
         //margin: auto 5px;
-        font-size: 14px;
+        //font-size: 14px;
         #desinax-vgrid.push(1);
     }
 }
@@ -223,11 +223,14 @@
     #desinax-vgrid.column(@columns);
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1000px) {
 
     .rm-desktop li a {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
+}
+
+@media screen and (max-width: 850px) {
 
     .region-header-col-2 {
         #desinax-vgrid.column(16);

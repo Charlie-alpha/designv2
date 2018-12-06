@@ -1,5 +1,5 @@
 /*!
-* Stylesheet for design kmom03.
+* Stylesheet for design kmom04 ("no colour setting" settings). 
 *
 */
 /**
@@ -4594,7 +4594,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
      */
 }
 .hgrid .inner-wrap {
-  background-image: url("../img/magic-number-22px.png");
+  background-image: url("../img/magic-number-24px.png");
 }
 /**
 * Base style to affect HTML elements on a general scale.
@@ -4604,7 +4604,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: auto;
-  background-color: #ffb039;
+  background-color: white;
 }
 .site-logo {
   display: none;
@@ -4612,31 +4612,33 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #303030;
-  font: 14px/1.57142857 Cambria, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+  font: 16px/1.5 "sans-serif";
   overflow-x: hidden;
 }
 #rm-menu {
-  background-color: #ffb039;
+  background-color: white;
 }
 .wrap-all {
   margin: 0 auto;
-  background-color: #fff9a6;
+  background-color: white;
 }
 .inner-wrap-header {
-  background-color: #ffb039;
+  background-color: white;
 }
 img {
   max-width: 100%;
 }
 .my-navbar li a {
-  color: #303030;
+  color: black;
   text-decoration: none;
 }
+.my-navbar li a:hover {
+  color: red;
+}
 .site-logo-text a {
-  color: #303030;
+  color: black;
   text-decoration: none;
-  font-size: 18px;
   text-transform: uppercase;
   padding: 0px 10px;
   border-radius: 5px;
@@ -4650,7 +4652,6 @@ img {
 }
 .breadcrumb-list {
   margin-left: -20px;
-  font-size: 12px;
 }
 .toc,
 .breadcrumb-list li {
@@ -4659,14 +4660,16 @@ img {
 .toc li {
   margin-left: -20px;
   margin-bottom: 2px;
-  font-size: 14px;
 }
 .toc a,
 .breadcrumb-list a,
 .next a,
 .previous a {
   text-decoration: none;
-  color: #303030;
+  color: black;
+}
+.region-footer {
+  color: black;
 }
 h1,
 h2,
@@ -4674,9 +4677,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: MyriadPro-Regular, "Myriad Pro Regular", MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
-  margin-top: 22px;
-  margin-bottom: 22px;
+  font-family: "serif";
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 h1 img,
 h2 img,
@@ -4688,10 +4691,10 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.32330827;
+  line-height: 1.26315789;
   font-weight: normal;
-  border-bottom: 1px solid #666;
-  margin-bottom: 21px;
+  border-bottom: 1px solid black;
+  margin-bottom: 23px;
 }
 h1 ~ h1,
 h1 ~ h2,
@@ -4699,58 +4702,58 @@ h1 ~ h3,
 h1 ~ h4,
 h1 ~ h5,
 h1 ~ h6 {
-  margin-top: 44px;
+  margin-top: 48px;
 }
 h1 + h2 {
-  margin-top: 22px;
+  margin-top: 24px;
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.67619048;
+  line-height: 1.6;
   font-weight: normal;
-  margin-bottom: 21px;
-  border-bottom: 1px solid #CCC;
+  margin-bottom: 23px;
+  border-bottom: 1px solid black;
 }
 h2 + h3 {
-  margin-top: 22px;
+  margin-top: 24px;
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.79591837;
+  line-height: 1.71428571;
   font-weight: normal;
-  margin-bottom: 21px;
-  border-bottom: 1px solid #EEE;
+  margin-bottom: 23px;
+  border-bottom: 1px solid black;
 }
 h3 + h4 {
-  margin-top: 22px;
+  margin-top: 24px;
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.04761905;
+  line-height: 1;
   font-weight: normal;
-  margin-bottom: 21px;
-  border-bottom: 1px solid #EEE;
+  margin-bottom: 23px;
+  border-bottom: 1px solid black;
 }
 h4 + h5 {
-  margin-top: 22px;
+  margin-top: 24px;
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.25714286;
-  margin-bottom: 21px;
+  line-height: 1.2;
+  margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
 h5 + h6 {
-  margin-top: 22px;
+  margin-top: 24px;
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.25714286;
-  margin-bottom: 21px;
+  line-height: 1.2;
+  margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
 p {
-  margin-bottom: 22px;
+  margin-bottom: 24px;
 }
 small,
 .small,
@@ -4791,14 +4794,14 @@ blockquote {
   border-left: 4px solid #eee;
   padding-left: 1em;
   margin-left: 0;
-  margin-bottom: 22px;
+  margin-bottom: 24px;
 }
 pre,
 code,
 kbd,
 samp,
 .code {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "monospace";
 }
 code,
 samp {
@@ -4817,7 +4820,7 @@ pre code {
   white-space: pre;
 }
 pre {
-  margin-bottom: 22px;
+  margin-bottom: 24px;
 }
 pre code {
   display: block;
@@ -4827,21 +4830,21 @@ div.code,
 pre code {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-  margin-bottom: 21px;
-  padding-top: 11px;
-  padding-bottom: 11px;
+  margin-bottom: 23px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   padding-left: 0.5em;
   background-color: #eee;
 }
 ul,
 ol {
-  margin-bottom: 22px;
+  margin-bottom: 24px;
   padding-left: 1.5em;
 }
 ul p,
 ol p {
-  margin-top: 11px;
-  margin-bottom: 11px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 ul ul,
 ol ul,
@@ -4856,7 +4859,7 @@ ol {
   list-style-type: decimal;
 }
 dl {
-  margin-bottom: 22px;
+  margin-bottom: 24px;
 }
 dl.horizontal dt {
   clear: left;
@@ -4874,7 +4877,7 @@ article table,
 .table,
 .table1,
 .table2 {
-  margin-bottom: 22px;
+  margin-bottom: 24px;
 }
 table.full-width,
 article .table,
@@ -4895,7 +4898,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.79591837;
+  line-height: 1.71428571;
   text-align: left;
   font-style: italic;
 }
@@ -4917,7 +4920,7 @@ article table th,
 article table td,
 .table td,
 .table2 td {
-  padding: 5.5px;
+  padding: 6px;
 }
 article table tr,
 .table tr,
@@ -4941,8 +4944,8 @@ hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  margin-top: 32px;
-  margin-bottom: 33px;
+  margin-top: 35px;
+  margin-bottom: 36px;
 }
 hr::after {
   content: "§";
@@ -5032,7 +5035,7 @@ hr::after {
 }
 .outer-wrap-header {
   position: relative;
-  background: #ffb039;
+  background: white;
 }
 .region-header-col-1,
 .region-header-col-3 {
@@ -5055,11 +5058,11 @@ hr::after {
   position: relative;
 }
 .my-navbar ul li {
-  background-color: #ffb039;
+  background-color: white;
 }
 .region-flash {
   background: url("../img/banner_kmom03.jpg");
-  height: 180px;
+  height: 0px;
   display: inline;
   float: left;
   width: 98.95833333%;
@@ -5091,18 +5094,18 @@ hr::after {
 }
 .region-main article,
 .wrap-sidebar .block {
-  background-color: #fff9a6;
+  background-color: white;
   border-radius: 5px;
 }
 .region-main article h1,
 .wrap-sidebar .block h1,
 .region-main article h4,
 .wrap-sidebar .block h4 {
-  background-color: #fff9a6;
+  background-color: white;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  color: #303030;
-  border-bottom: 1px solid #303030;
+  color: black;
+  border-bottom: 1px solid black;
 }
 .region-breadcrumb {
   display: inline;
@@ -5129,7 +5132,7 @@ hr::after {
   text-align: left;
 }
 .author-byline {
-  border: 1px solid #ffb039;
+  border: 1px solid black;
   display: inline;
   float: left;
   width: 65.625%;
@@ -5137,12 +5140,11 @@ hr::after {
   margin-right: 0.52083333%;
 }
 .author-byline p {
-  font-size: 14px;
   margin-left: 4.6875%;
 }
 .outer-wrap-footer,
 .inner-wrap-footer {
-  background: #ffb039;
+  background: white;
 }
 .footer-column {
   display: inline;
@@ -5158,10 +5160,12 @@ hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1000px) {
   .rm-desktop li a {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
+}
+@media screen and (max-width: 850px) {
   .region-header-col-2 {
     display: inline;
     float: left;

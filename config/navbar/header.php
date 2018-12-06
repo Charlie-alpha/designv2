@@ -58,5 +58,19 @@ return [
             "url" => "test",
             "title" => "Testing making new page",
         ],
+        [
+            "text" => "Rapport",
+            "url" => "rapport",
+            "title" => "Rapporter",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Färgschema",
+                        "url" => "rapport/fargschema",
+                        "title" => "Färgschema",
+                    ],
+                ],
+            ],
+        ],
     ],
 ];

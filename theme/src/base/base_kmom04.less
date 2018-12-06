@@ -1,0 +1,97 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+@headerText: white;
+@bgColor: white;
+@colorBody:darkgrey;
+@headerFooterBg: blue;
+@navHover: red;
+
+html {
+    overflow-y: auto;
+    background-color: @headerFooterBg;
+}
+
+.site-logo {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    #desinax-hgrid.font(@fontSizeBody);
+    overflow-x: hidden;
+}
+
+#rm-menu {
+    background-color: @headerFooterBg;
+}
+
+.wrap-all {
+    margin: 0 auto;
+    background-color: @bgColor;
+}
+
+.inner-wrap-header {
+    background-color: @headerFooterBg;
+}
+
+img {
+    max-width: 100%;
+}
+
+.my-navbar li a {
+    color: @headerText;
+    text-decoration: none;
+
+    &:hover {
+        color: @navHover;
+    }
+}
+
+.site-logo-text a {
+    color: @headerText;
+    text-decoration: none;
+    //font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: rgb(160, 160, 160);
+    }
+}
+
+.region-sidebar-right .block {
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.breadcrumb-list {
+    margin-left: -20px;
+    //font-size: 12px;
+}
+
+.toc, .breadcrumb-list li {
+    list-style-type: none;
+}
+
+.toc li {
+    margin-left: -20px;
+    margin-bottom: 2px;
+    //font-size: 14px;
+}
+
+.toc a, .breadcrumb-list a, .next a, .previous a {
+    text-decoration: none;
+    color: @colorBody;
+}
+
+.region-footer {
+    color: @headerText;
+}
+
+// default fonts
+#desinax-hgrid.activateDefaultTypography();

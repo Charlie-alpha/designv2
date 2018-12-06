@@ -1,0 +1,111 @@
+/*!
+* Stylesheet for design kmom04 ("no colour setting" settings). 
+*
+*/
+
+// mixins
+@import "mixin/clearfix.less";
+.clearfix() {
+#design-mixin.clearfix();
+};
+
+/**
+* Normalize and reset the style.
+*/
+@import "normalize.css/normalize.less";
+
+/**
+* Font Awesome.
+*/
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+/**
+* Internal self contained modules, save in directory module/.
+*/
+// @import "module/kmom01.less";
+@import "module/stylechooser.less";  // Just an example module
+
+
+
+/**
+* A responsive menu.
+*/
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+//@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+
+/**
+* Import the typographic grid.
+*/
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+
+
+/**
+* Base style to affect HTML elements on a general scale.
+*/
+@import "base/base_kmom04.less";
+
+/**
+* Import the vertical grid.
+*/
+@import "@desinax/vertical-grid/less/grid.less";
+@import "layout/layout_kmom04.less";
+
+//  // Default grid, change to fit your requirements.
+//  @columnWidth:   30;
+//  @gutterWidth:   10;
+//  @columns:       24;
+//  @gridType:      "float"; // "flex"
+
+/**
+* Layout style for general structure of header, navbar, main, footer
+* and other regions of the page including route specific styles.
+*/
+@import "layout/regions.less";     // To add style for ?regions
+
+
+/**
+* My own settings, not currently in their own module.
+*/
+
+// "no setting" settings
+// base settings 
+@bgColor: white;
+@headerFooterBg : white;
+@colorBody: black;
+@headerText: black;
+
+// typography default
+@colorH4BorderBottom:black;
+@colorH2BorderBottom: black;
+@colorH1BorderBottom: black;
+@colorH3BorderBottom: black;
+
+// layout settings (kmom03: vgrid.less)
+//@headerFooterBg: #5972ff;
+@headingsBg: white;
+@contentBg: white;
+@bylineBorder: black;
+@headingColor: black;
+@flashimg: "../img/banner_kmom03.jpg";
+// @flashHeight: 0px if no flash; @flashimg cannot be empty. 
+@flashHeight: 0px;
+
+// typographic grid
+// @fontFamilyHeadings: @fontFamilyMyriadPro;
+// @fontFamilyBody: @fontFamilyCambria;
+// @fontFamilyCode: @fontFamilyCourier;
+
+// @magicNumber:  22px;  // 24px
+// @fontSizeBody: 14px;
