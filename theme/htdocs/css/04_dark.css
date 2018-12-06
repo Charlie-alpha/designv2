@@ -4617,7 +4617,7 @@ body {
   margin: 0;
   padding: 0;
   color: #b4b4b4;
-  font: 18px/1.33333333 Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font: 20px/1.2 Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
   overflow-x: hidden;
 }
 #rm-menu {
@@ -4625,7 +4625,7 @@ body {
 }
 .wrap-all {
   margin: 0 auto;
-  background-color: #000000;
+  background-color: #0f0f0f;
 }
 .inner-wrap-header {
   background-color: #000000;
@@ -4695,7 +4695,7 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.12280702;
+  line-height: 1.01052632;
   font-weight: normal;
   border-bottom: 1px solid #b4b4b4;
   margin-bottom: 23px;
@@ -4713,7 +4713,7 @@ h1 + h2 {
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.42222222;
+  line-height: 1.28;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #b4b4b4;
@@ -4723,7 +4723,7 @@ h2 + h3 {
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.52380952;
+  line-height: 1.37142857;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #b4b4b4;
@@ -4733,7 +4733,7 @@ h3 + h4 {
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.77777778;
+  line-height: 1.6;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #b4b4b4;
@@ -4743,7 +4743,7 @@ h4 + h5 {
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.06666667;
+  line-height: 1.92;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
@@ -4752,7 +4752,7 @@ h5 + h6 {
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.06666667;
+  line-height: 1.92;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
@@ -4814,7 +4814,7 @@ samp {
   padding-right: 1px;
 }
 code {
-  background-color: #eee;
+  background-color: #0f0f0f;
 }
 pre,
 div.code,
@@ -4902,7 +4902,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.52380952;
+  line-height: 1.37142857;
   text-align: left;
   font-style: italic;
 }
@@ -5002,7 +5002,6 @@ hr::after {
   width: 101.04166667%;
   margin-left: -0.52083333%;
   margin-right: -0.52083333%;
-  margin-bottom: 12px;
 }
 .row::after {
   content: "";
@@ -5098,14 +5097,14 @@ hr::after {
 }
 .region-main article,
 .wrap-sidebar .block {
-  background-color: #000000;
+  background-color: #0f0f0f;
   border-radius: 5px;
 }
 .region-main article h1,
 .wrap-sidebar .block h1,
 .region-main article h4,
 .wrap-sidebar .block h4 {
-  background-color: #000000;
+  background-color: #0f0f0f;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   color: #b4b4b4;
@@ -5164,9 +5163,9 @@ hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .rm-desktop li a {
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 }
 @media screen and (max-width: 850px) {

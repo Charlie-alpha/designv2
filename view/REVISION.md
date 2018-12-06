@@ -1,6 +1,11 @@
 Revision history
 ======================
 
+v4.0.1 (2018-12-6)
+---------------------
+
+*kmom03 uppgiften klar och redovisning klar. 
+
 v4.0.0 (2018-12-6)
 ---------------------
 

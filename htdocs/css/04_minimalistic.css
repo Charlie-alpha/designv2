@@ -4616,7 +4616,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #322829;
+  color: #f0f0f0;
   font: 16px/1.5 Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
@@ -4625,7 +4625,7 @@ body {
 }
 .wrap-all {
   margin: 0 auto;
-  background-color: #f0f0f0;
+  background-color: #322829;
 }
 .inner-wrap-header {
   background-color: #322829;
@@ -4670,7 +4670,7 @@ img {
 .next a,
 .previous a {
   text-decoration: none;
-  color: #322829;
+  color: #f0f0f0;
 }
 .region-footer {
   color: #f0f0f0;
@@ -4814,7 +4814,7 @@ samp {
   padding-right: 1px;
 }
 code {
-  background-color: #eee;
+  background-color: rgba(191, 248, 255, 0.1);
 }
 pre,
 div.code,
@@ -5002,7 +5002,6 @@ hr::after {
   width: 101.04166667%;
   margin-left: -0.52083333%;
   margin-right: -0.52083333%;
-  margin-bottom: 12px;
 }
 .row::after {
   content: "";
@@ -5098,7 +5097,7 @@ hr::after {
 }
 .region-main article,
 .wrap-sidebar .block {
-  background-color: rgba(50, 40, 41, 0.1);
+  background-color: rgba(191, 248, 255, 0.1);
   border-radius: 5px;
 }
 .region-main article h1,
@@ -5136,7 +5135,7 @@ hr::after {
   text-align: left;
 }
 .author-byline {
-  border: 1px solid #322829;
+  border: 1px solid #bff8ff;
   display: inline;
   float: left;
   width: 65.625%;
@@ -5164,9 +5163,9 @@ hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .rm-desktop li a {
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 }
 @media screen and (max-width: 850px) {
